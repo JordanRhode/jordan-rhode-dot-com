@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelScanner", "LabelScanner\LabelScanner.csproj", "{013935F8-CD58-469E-A613-7F2C971E6119}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{013935F8-CD58-469E-A613-7F2C971E6119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013935F8-CD58-469E-A613-7F2C971E6119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013935F8-CD58-469E-A613-7F2C971E6119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013935F8-CD58-469E-A613-7F2C971E6119}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {134B0EC3-4013-4FF5-88B6-7D9B63EC69CC}
+	EndGlobalSection
+EndGlobal

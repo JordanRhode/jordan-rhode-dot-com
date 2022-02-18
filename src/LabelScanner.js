@@ -1,9 +1,12 @@
 
 import { useState } from 'react';
 import Tesseract from 'tesseract.js';
+import ReactGa from 'react-ga';
 import './LabelScanner.css';
 
 function LabelScanner() {
+  ReactGa.pageview(window.location.pathname);
+
   const [imagePath, setImagePath] = useState("");
   const [text, setText] = useState("");
 

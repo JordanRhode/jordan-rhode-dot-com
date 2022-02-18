@@ -1,0 +1,25 @@
+.label-scanner {
+  text-align: center;
+}
+
+.label-scanner .input-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.label-scanner .image-preview {
+  width: 50%;
+  height: auto;
+}
+
+.ls-btn-input, .ls-btn-search {
+  width: 200px;
+  margin: 5px;
+}
+
+.label-scanner #ls-image-input {
+  opacity: 0;
+  width: .1px;
+  height: .1px;
+  position: absolute;
+}

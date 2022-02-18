@@ -32,9 +32,9 @@ function LabelScanner() {
       <div className='input-container'>
         <div className='ls-btn-input btn btn-outline-primary btn-lg'>
           <input id='ls-image-input' type="file" onInput={e => setImagePath(URL.createObjectURL(e.target.files[0]))} accept="image/*"></input>
-          <label htmlFor="ls-image-input">Select file</label>
+          <label htmlFor="ls-image-input">Select Image</label>
         </div>
-      <button onClick={handleClick} className="ls-btn-input btn btn-outline-primary btn-lg">Search</button>
+      <button onClick={handleClick} className="ls-btn-input btn btn-outline-primary btn-lg">Process</button>
       </div>
       <img src={imagePath} className="image-preview"/>
       <div>{text}</div>

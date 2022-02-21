@@ -5,6 +5,7 @@ import ReactGa from 'react-ga';
 import './LabelScanner.css';
 
 function LabelScanner() {
+  document.title="Label Scanner | JordanRhode.com";
   ReactGa.pageview(window.location.pathname);
 
   const [imagePath, setImagePath] = useState("");

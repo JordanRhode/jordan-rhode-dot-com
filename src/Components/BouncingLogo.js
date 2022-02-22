@@ -35,7 +35,6 @@ function drawImage() {
     let image = document.getElementById(logoId);
 
     context.clearRect(0, 0, canvasWidth, canvasHeight);
-    console.log(x + ', ' + y);
     context.drawImage(image, x, y);
 }
 

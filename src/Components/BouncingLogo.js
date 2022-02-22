@@ -1,4 +1,4 @@
-import logo from '../img/jr-logo.png';
+import logo from '../Media/jr-logo.png';
 
 let canvasWidth, canvasHeight, x, y, xSpeed, ySpeed;
 const canvasId = 'bouncing-logo-canvas';

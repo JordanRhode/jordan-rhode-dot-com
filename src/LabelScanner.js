@@ -4,7 +4,7 @@ import Tesseract from 'tesseract.js';
 import ReactGa from 'react-ga';
 import './LabelScanner.css';
 
-function LabelScanner() {
+export default function LabelScanner() {
   document.title="Label Scanner | JordanRhode.com";
   ReactGa.pageview(window.location.pathname);
 
@@ -45,5 +45,3 @@ function LabelScanner() {
     </div>
   );
 }
-
-export default LabelScanner;

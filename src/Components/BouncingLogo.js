@@ -30,8 +30,7 @@ function step() {
 }
 
 function drawImage() {
-    let canvas = document.getElementById(canvasId);
-    let context = canvas.getContext('2d');
+    let context = document.getElementById(canvasId).getContext('2d');
     let image = document.getElementById(logoId);
 
     context.clearRect(0, 0, canvasWidth, canvasHeight);
